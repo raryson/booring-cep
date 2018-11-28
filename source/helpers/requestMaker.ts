@@ -1,4 +1,3 @@
-import { get } from 'request'
 import { CepInfos } from './interface'
 const rp = require('request-promise')
 
