@@ -1,5 +1,5 @@
 import * as express from 'express'
-import { getCep } from './helpers/requestMaker'
+import { getCep } from './helpers/requestMaker/requestMaker'
 import * as asyncHandler from 'express-async-handler'
 
 const app = express()
